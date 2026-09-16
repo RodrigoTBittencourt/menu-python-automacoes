@@ -64,7 +64,7 @@ st.markdown(
 
 # --- CREDENCIAIS DO BANCO DE DADOS (Supabase) ---
 DB_USER = "postgres"
-DB_PASS = st.secrets["DB_PASS"]
+DB_PASS = "@Supabaserod988101"
 DB_HOST = "db.tocehhtqemxhgxuwjykm.supabase.co"
 DB_PORT = "5432"
 DB_NAME = "postgres"
