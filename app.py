@@ -25,7 +25,7 @@ if st.button("▶️ Executar Atualização e Enviar ao Supabase", type="primary
                 if "DB_PASS" in st.secrets:
                     db_pass = st.secrets["DB_PASS"]
                 else:
-                    db_pass = "@Supabaserod988101"
+                    db_pass = "xxxxxxx"
                     
                 string_conexao = f"postgresql+psycopg2://postgres:{db_pass}@db.tocehhtqemxhgxuwjykm.supabase.co:5432/postgres"
                 engine = create_engine(string_conexao)
